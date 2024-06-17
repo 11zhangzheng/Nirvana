@@ -9,10 +9,13 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
     "axios": "^0.27.2",
     "core-js": "^3.6.5",
     "docx-preview": "^0.1.4",
     "element-ui": "^2.15.9",
+    "eslint": "^6.8.0",
     "file-saver": "^2.0.5",
     "vue": "^2.6.11",
     "vue-pdf": "^4.3.0",
@@ -29,7 +32,6 @@
     "@vue/cli-service": "~4.5.15",
     "babel-eslint": "^10.1.0",
     "echarts": "^5.4.1",
-    "eslint": "^8.54.0",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11",
     "vuex-persistedstate": "^4.1.0"

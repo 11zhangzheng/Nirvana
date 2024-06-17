@@ -3,8 +3,7 @@
 		<el-container>
 			<el-header>Header</el-header>
 			<el-main>
-			<login>
-			</login></el-main>
+			</el-main>
 			<el-footer>
 			</el-footer>
 		</el-container>
@@ -12,22 +11,7 @@
 </template>
 
 <script>
-	import login from '@/components/Login'
-	export default {
-		components:{
-		login
-		},
-		data() {
-			return {
-				text: 'home'
-			}
-		},
-		methods:{
-			skip(){
-				this.$router.push("login")
-			}
-		}
-	}
+	
 </script>
 
 <style>

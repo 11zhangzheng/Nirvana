@@ -8,6 +8,11 @@ import VueRouter from 'vue-router';
 import router from './router';
 import store from './store';
 import Element from 'element-ui';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faDumbbell, faMusic, faCamera, faUser } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+library.add(faDumbbell, faMusic, faCamera, faUser);
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.prototype.$axios = axios;
 axios.defaults.baseURL = '/api'
 Vue.prototype.$httpUrl='http://localhost:9513'   //本地调试地址

@@ -1,5 +1,5 @@
 import Vue from 'vue';
-// import VueRouter from 'vue-router';
+import VueRouter from 'vue-router';
 import Router from 'vue-router';
 // const originalPush = Router.prototype.push
 // Router.prototype.push = function push(location) {
@@ -9,18 +9,18 @@ Vue.use(Router)
 const routes = [
 	{
 		path: '/',
-		name: 'Home',
+		name: 'Login',
 		component: () =>
-			import('../components/Home.vue'),
+			import('../components/Login.vue'),
 		meta: {
 			allowBack: false
 		}
 	},
 	{
-		path: '/login',
-		name: 'login',
+		path: '/home',
+		name: 'Home',
 		component: () =>
-			import('../components/Login.vue'),
+			import('../components/Home.vue'),
 		meta: {
 			allowBack: false
 		}
