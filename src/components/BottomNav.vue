@@ -1,10 +1,10 @@
 <template>
   <div class="bottom-nav" v-if="shouldShowNavbar">
-    <router-link to="/login" class="nav-item">
+    <router-link to="/home" class="nav-item">
       <font-awesome-icon icon="dumbbell" />
       <span>健身主页</span>
     </router-link>
-    <router-link to="/music" class="nav-item">
+    <router-link to="/backgroundMusic" class="nav-item">
       <font-awesome-icon icon="music" />
       <span>背景音乐</span>
     </router-link>
@@ -12,7 +12,7 @@
       <font-awesome-icon icon="camera" />
       <span>发现</span>
     </router-link>
-    <router-link to="/profile" class="nav-item">
+    <router-link to="/information" class="nav-item">
       <font-awesome-icon icon="user" />
       <span>我的</span>
     </router-link>

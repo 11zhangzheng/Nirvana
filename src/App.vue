@@ -7,6 +7,9 @@
 
 <script>
 import BottomNav from './components/BottomNav.vue';
+import shouye from './components/shouye.vue';   // 首页
+import BackgroundMusic from './components/BackgroundMusic.vue' // 音乐页
+	
 
 	export default {
 		name: 'App',
@@ -16,7 +19,20 @@ import BottomNav from './components/BottomNav.vue';
 		created() {
 		}
 
+		
 	}
+
+	import Vue from 'vue';
+	import App from './App.vue';
+	import router from './router'; // 确保路径正确
+	
+
+	new Vue({
+		router,
+		render: h => h(App),
+	}).$mount('#App');
+
+	
 </script>
 
 <style>

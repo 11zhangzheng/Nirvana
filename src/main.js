@@ -15,7 +15,8 @@ library.add(faDumbbell, faMusic, faCamera, faUser);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.prototype.$axios = axios;
 axios.defaults.baseURL = '/api'
-Vue.prototype.$httpUrl='http://localhost:9513'   //本地调试地址
+Vue.prototype.$httpUrl='http://127.0.0.1:9513'   //本地调试地址
+// Vue.prototype.$httpUrl='http://47.105.81.53:9513'   //本地调试地址
 Vue.config.productionTip = false
 Vue.use(VueRouter);
 Element.Dialog.props.closeOnClickModal.default = false;
